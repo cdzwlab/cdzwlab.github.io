@@ -1,0 +1,29 @@
+{
+  "generated": "2026-10-06T02:57:09.702Z",
+  "posts": [
+    {
+      "slug": "model-rules",
+      "file": "posts/model-rules.md",
+      "title": "软件定义计算机的理论模型与核心法则",
+      "date": "2026-10-06",
+      "summary": "基于分布式账本的计算机体系架构的理论模型和核心法则。",
+      "chars": 2809,
+      "tags": [
+        "理论模型",
+        "核心法则"
+      ]
+    },
+    {
+      "slug": "markdown-guide",
+      "file": "posts/markdown-guide.md",
+      "title": "Markdown 语法速查",
+      "date": "2026-10-05",
+      "summary": "本站 Markdown 渲染器支持的全部语法，一页看完。",
+      "chars": 691,
+      "tags": [
+        "参考",
+        "Markdown"
+      ]
+    }
+  ]
+}
