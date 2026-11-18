@@ -990,7 +990,13 @@ a.contact-card:hover .contact-card__go {
   color: var(--muted);
 }
 .footer__meta { opacity: .75; }
-.footer__icp { opacity: .75; }
+.footer__icp {
+  margin: 14px 0 0;
+  text-align: center;
+  font-size: 13px;
+  color: var(--muted);
+  opacity: .75;
+}
 .footer__icp a {
   color: inherit;
   text-decoration: none;
