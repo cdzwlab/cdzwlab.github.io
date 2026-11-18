@@ -23,10 +23,10 @@
 
 ## 官网
 
-官网源码位于 `gh-pages` 分支，通过 `CNAME` 绑定自有域名 `cdzwai.com`
-（`www.cdzwai.com` 会 301 跳到这里），站点仍部署在根路径：
+官网源码位于 `gh-pages` 分支，通过 `CNAME` 绑定自有域名 `cdzw.cn`
+（`www.cdzw.cn` 会 301 跳到这里），站点仍部署在根路径：
 
-- 访问地址：https://cdzwai.com/
+- 访问地址：https://cdzw.cn/
 
 ## 博客
 
