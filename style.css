@@ -972,6 +972,13 @@ a.contact-card:hover .contact-card__go {
   color: var(--muted);
 }
 .footer__meta { opacity: .75; }
+.footer__icp { opacity: .75; }
+.footer__icp a {
+  color: inherit;
+  text-decoration: none;
+  transition: color .2s ease, opacity .2s ease;
+}
+.footer__icp a:hover { color: var(--accent-2); opacity: 1; }
 
 /* ===================================================
    回到顶部
@@ -1169,6 +1176,13 @@ a.contact-card:hover .contact-card__go {
   justify-content: center;
   margin-top: 38px;
 }
+.e404__icp {
+  margin-top: 30px;
+  font-size: 12.5px;
+  color: var(--muted);
+}
+.e404__icp a { color: inherit; text-decoration: none; }
+.e404__icp a:hover { color: var(--accent-2); }
 
 /* ===================================================
    博客：列表页
