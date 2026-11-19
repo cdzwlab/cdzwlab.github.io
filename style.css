@@ -1151,6 +1151,100 @@ a.contact-card:hover .contact-card__go {
 }
 
 /* ===================================================
+   论文
+   =================================================== */
+.paper-list { display: grid; gap: 18px; }
+
+.paper {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 26px;
+  padding: 34px 36px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--card-bg);
+  transition: transform .3s var(--ease), border-color .3s ease, box-shadow .3s ease;
+}
+.paper:hover {
+  transform: translateY(-4px);
+  border-color: var(--ring);
+  box-shadow: var(--shadow-accent);
+}
+.paper__main { flex: 1 1 520px; min-width: 0; }
+.paper__kicker {
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--accent-2);
+}
+.paper__title {
+  max-width: 860px;
+  margin-top: 10px;
+  font-size: clamp(19px, 2.1vw, 24px);
+  line-height: 1.45;
+  letter-spacing: -.02em;
+}
+.paper__title a { color: var(--text); text-decoration: none; }
+.paper__title a:hover { color: var(--accent-2); }
+.paper__sub {
+  margin-top: 8px;
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+.paper__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  margin-top: 14px;
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: .04em;
+  color: var(--muted);
+}
+.paper__actions { display: flex; flex-wrap: wrap; gap: 10px; }
+
+.paper-reader .section-head p {
+  margin-top: 12px;
+  font-size: 14.5px;
+  line-height: 1.72;
+  color: var(--muted);
+}
+#paper-reader { scroll-margin-top: 96px; }
+.paper-reader__frame {
+  margin-top: 4px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+}
+.paper-reader__frame iframe {
+  display: block;
+  width: 100%;
+  height: min(84vh, 980px);
+  min-height: 620px;
+  border: 0;
+  background: var(--bg-2);
+}
+.paper-reader__note {
+  margin-top: 18px;
+  font-size: 13.5px;
+  color: var(--muted);
+}
+.paper-reader__note a { color: var(--accent-2); text-decoration: none; }
+.paper-reader__note a:hover { text-decoration: underline; }
+
+@media (max-width: 700px) {
+  .paper { padding: 26px 22px; }
+  .paper-reader__frame iframe { height: 74vh; min-height: 480px; }
+}
+
+/* ===================================================
    404
    =================================================== */
 .e404 {
